@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		5202EFC42241791500836E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202EFC32241791500836E4E /* AppDelegate.swift */; };
-		5202EFC62241791500836E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202EFC52241791500836E4E /* ViewController.swift */; };
+		5202EFC62241791500836E4E /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202EFC52241791500836E4E /* MovieListViewController.swift */; };
 		5202EFC92241791500836E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5202EFC72241791500836E4E /* Main.storyboard */; };
 		5202EFCC2241791500836E4E /* IMDBAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5202EFCA2241791500836E4E /* IMDBAPP.xcdatamodeld */; };
 		5202EFCE2241791600836E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5202EFCD2241791600836E4E /* Assets.xcassets */; };
 		5202EFD12241791600836E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5202EFCF2241791600836E4E /* LaunchScreen.storyboard */; };
+		5298333C2242F21D0018DA45 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298333B2242F21D0018DA45 /* Constants.swift */; };
+		52AD9B74224358E100777771 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD9B73224358E100777771 /* Movies.swift */; };
+		52AD9B7622435AD300777771 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD9B7522435AD300777771 /* Extensions.swift */; };
+		52AD9B782243600900777771 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD9B772243600900777771 /* NetworkLogger.swift */; };
+		52AD9B7A224388D800777771 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD9B79224388D800777771 /* Util.swift */; };
+		52AD9B7C2243A8BD00777771 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD9B7B2243A8BD00777771 /* DetailViewController.swift */; };
+		52AD9B7E2243A9DE00777771 /* RatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD9B7D2243A9DE00777771 /* RatingController.swift */; };
+		ADD1B5DBBF05AC5F807C651B /* Pods_IMDBAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4703753565039E8CCB2EEBFD /* Pods_IMDBAPP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1037E20B3EE015BC182D85B5 /* Pods-IMDBAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDBAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMDBAPP/Pods-IMDBAPP.release.xcconfig"; sourceTree = "<group>"; };
+		4441A3698D1547F6C5CA1588 /* Pods-IMDBAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDBAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMDBAPP/Pods-IMDBAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		4703753565039E8CCB2EEBFD /* Pods_IMDBAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDBAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5202EFC02241791500836E4E /* IMDBAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMDBAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5202EFC32241791500836E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5202EFC52241791500836E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5202EFC52241791500836E4E /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		5202EFC82241791500836E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5202EFCB2241791500836E4E /* IMDBAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IMDBAPP.xcdatamodel; sourceTree = "<group>"; };
 		5202EFCD2241791600836E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5202EFD02241791600836E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5202EFD22241791600836E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5298333B2242F21D0018DA45 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		52AD9B73224358E100777771 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		52AD9B7522435AD300777771 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		52AD9B772243600900777771 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		52AD9B79224388D800777771 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		52AD9B7B2243A8BD00777771 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		52AD9B7D2243A9DE00777771 /* RatingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD1B5DBBF05AC5F807C651B /* Pods_IMDBAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		471119AAFD014953067DC119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4703753565039E8CCB2EEBFD /* Pods_IMDBAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5202EFB72241791500836E4E = {
 			isa = PBXGroup;
 			children = (
 				5202EFC22241791500836E4E /* IMDBAPP */,
 				5202EFC12241791500836E4E /* Products */,
+				F06BAE60BF5C3A423FFB6EF5 /* Pods */,
+				471119AAFD014953067DC119 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +85,12 @@
 		5202EFC22241791500836E4E /* IMDBAPP */ = {
 			isa = PBXGroup;
 			children = (
+				5298333A2242CC090018DA45 /* Base */,
+				529833392242CBE90018DA45 /* Model */,
+				529833382242CBAD0018DA45 /* Detail */,
+				529833372242CBA70018DA45 /* Home */,
+				529833362242CB8E0018DA45 /* Helpers */,
 				5202EFC32241791500836E4E /* AppDelegate.swift */,
-				5202EFC52241791500836E4E /* ViewController.swift */,
 				5202EFC72241791500836E4E /* Main.storyboard */,
 				5202EFCD2241791600836E4E /* Assets.xcassets */,
 				5202EFCF2241791600836E4E /* LaunchScreen.storyboard */,
@@ -67,6 +100,58 @@
 			path = IMDBAPP;
 			sourceTree = "<group>";
 		};
+		529833362242CB8E0018DA45 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				52AD9B772243600900777771 /* NetworkLogger.swift */,
+				5298333B2242F21D0018DA45 /* Constants.swift */,
+				52AD9B7522435AD300777771 /* Extensions.swift */,
+				52AD9B79224388D800777771 /* Util.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		529833372242CBA70018DA45 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5202EFC52241791500836E4E /* MovieListViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		529833382242CBAD0018DA45 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				52AD9B7B2243A8BD00777771 /* DetailViewController.swift */,
+				52AD9B7D2243A9DE00777771 /* RatingController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		529833392242CBE90018DA45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52AD9B73224358E100777771 /* Movies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5298333A2242CC090018DA45 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F06BAE60BF5C3A423FFB6EF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4441A3698D1547F6C5CA1588 /* Pods-IMDBAPP.debug.xcconfig */,
+				1037E20B3EE015BC182D85B5 /* Pods-IMDBAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5202EFD52241791600836E4E /* Build configuration list for PBXNativeTarget "IMDBAPP" */;
 			buildPhases = (
+				B8CD782C480C7AFF83C1CAA1 /* [CP] Check Pods Manifest.lock */,
 				5202EFBC2241791500836E4E /* Sources */,
 				5202EFBD2241791500836E4E /* Frameworks */,
 				5202EFBE2241791500836E4E /* Resources */,
+				7418BEAD52C733BEB5DBD72C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +220,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7418BEAD52C733BEB5DBD72C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IMDBAPP/Pods-IMDBAPP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCSStarRatingView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMDBAPP/Pods-IMDBAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8CD782C480C7AFF83C1CAA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMDBAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5202EFBC2241791500836E4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5202EFC62241791500836E4E /* ViewController.swift in Sources */,
+				52AD9B7C2243A8BD00777771 /* DetailViewController.swift in Sources */,
+				52AD9B782243600900777771 /* NetworkLogger.swift in Sources */,
+				52AD9B74224358E100777771 /* Movies.swift in Sources */,
+				52AD9B7622435AD300777771 /* Extensions.swift in Sources */,
+				52AD9B7A224388D800777771 /* Util.swift in Sources */,
+				5202EFC62241791500836E4E /* MovieListViewController.swift in Sources */,
+				52AD9B7E2243A9DE00777771 /* RatingController.swift in Sources */,
 				5202EFCC2241791500836E4E /* IMDBAPP.xcdatamodeld in Sources */,
 				5202EFC42241791500836E4E /* AppDelegate.swift in Sources */,
+				5298333C2242F21D0018DA45 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +415,7 @@
 		};
 		5202EFD62241791600836E4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4441A3698D1547F6C5CA1588 /* Pods-IMDBAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +434,7 @@
 		};
 		5202EFD72241791600836E4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1037E20B3EE015BC182D85B5 /* Pods-IMDBAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

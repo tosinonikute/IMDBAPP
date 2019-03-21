@@ -1,0 +1,16 @@
+PODS:
+  - HCSStarRatingView (1.5)
+
+DEPENDENCIES:
+  - HCSStarRatingView (~> 1.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HCSStarRatingView
+
+SPEC CHECKSUMS:
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+
+PODFILE CHECKSUM: bbbcf3aa036e8bbce015df976f9a7ed06cab53c4
+
+COCOAPODS: 1.5.3
