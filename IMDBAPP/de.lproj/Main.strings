@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "0Zl-1l-Qtk"; */
+"0Zl-1l-Qtk.text" = "0.0";
+
+/* Class = "UILabel"; text = "00-00-0000"; ObjectID = "FHq-wq-vPS"; */
+"FHq-wq-vPS.text" = "00-00-0000";
+
+/* Class = "UILabel"; text = "Rating"; ObjectID = "TwS-zo-qTH"; */
+"TwS-zo-qTH.text" = "Rating";
+
+/* Class = "UILabel"; text = "Release date"; ObjectID = "eLu-bW-tiO"; */
+"eLu-bW-tiO.text" = "Release date";
+
+/* Class = "UILabel"; text = "moviename"; ObjectID = "tGN-XU-w0V"; */
+"tGN-XU-w0V.text" = "moviename";
