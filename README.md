@@ -9,9 +9,9 @@ The goal of this project is create a simple iOS app & Implement an iOS architect
 
 Screenshots Below: 
 
-<a href="#"><img src="https://github.com/tosinonikute/IMDBAPP/blob/master/images/SimulatorScreenShot1.png" align="left" width="260" ></a>
+<a href="#" style="border: 1px solid #ccc"><img src="https://github.com/tosinonikute/IMDBAPP/blob/master/images/SimulatorScreenShot1.png" align="left" width="260" ></a>
 
-<a href="#"><img src="https://github.com/tosinonikute/IMDBAPP/blob/master/images/SimulatorScreenShot2.png" align="left" width="260" ></a>
+<a href="#" style="border: 1px solid #ccc"><img src="https://github.com/tosinonikute/IMDBAPP/blob/master/images/SimulatorScreenShot2.png" align="left" width="260" ></a>
 
-<a href="#"><img src="https://github.com/tosinonikute/IMDBAPP/blob/master/images/SimulatorScreenShot3.png" align="left" width="260" ></a>
+<a href="#" style="border: 1px solid #ccc"><img src="https://github.com/tosinonikute/IMDBAPP/blob/master/images/SimulatorScreenShot3.png" align="left" width="260" ></a>
 
