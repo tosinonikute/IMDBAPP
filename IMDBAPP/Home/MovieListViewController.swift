@@ -106,7 +106,6 @@ extension MovieListViewController {
         }
         
         let url = URL(string: movieImageUrl)
-
         let task = URLSession.shared.dataTask(with: url!) { data, response, error in
             guard let data = data, error == nil else { return }
 
@@ -123,4 +122,23 @@ extension MovieListViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.tableArray.count
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let moviesData = self.tableArray[indexPath.row]
+        DispatchQueue.main.async {
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let detailViewController =
+                storyBoard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+            detailViewController.movieName = String(moviesData.originalTitle)
+            detailViewController.movieRating = String(moviesData.voteAverage)
+            detailViewController.movieDesc = String(moviesData.overview)
+            detailViewController.movieImageUrl = String(moviesData.posterPath)
+            
+            self.present(detailViewController, animated: true, completion: nil)
+        }
+        
+    }
 }
+
+
