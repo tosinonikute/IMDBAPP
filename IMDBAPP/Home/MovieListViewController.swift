@@ -131,7 +131,7 @@ extension MovieListViewController {
             let detailViewController =
                 storyBoard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
             detailViewController.movieName = String(moviesData.originalTitle)
-            detailViewController.movieRating = String(moviesData.voteAverage)
+            detailViewController.movieRating = moviesData.voteAverage
             detailViewController.movieDesc = String(moviesData.overview)
             detailViewController.movieImageUrl = String(moviesData.posterPath)
             

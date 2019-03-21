@@ -191,19 +191,19 @@
                                 <rect key="frame" x="15" y="345" width="59" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rate-star-button" translatesAutoresizingMaskIntoConstraints="NO" id="D5P-vX-IUW" userLabel="rate-star-2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rate-star-button-unrated" translatesAutoresizingMaskIntoConstraints="NO" id="D5P-vX-IUW" userLabel="rate-star-2">
                                 <rect key="frame" x="47" y="345" width="59" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rate-star-button" translatesAutoresizingMaskIntoConstraints="NO" id="c7t-Zc-zOb" userLabel="rate-star-5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rate-star-button-unrated" translatesAutoresizingMaskIntoConstraints="NO" id="c7t-Zc-zOb" userLabel="rate-star-5">
                                 <rect key="frame" x="141" y="345" width="59" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rate-star-button" translatesAutoresizingMaskIntoConstraints="NO" id="ffz-vY-Y6H" userLabel="rate-star-4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rate-star-button-unrated" translatesAutoresizingMaskIntoConstraints="NO" id="ffz-vY-Y6H" userLabel="rate-star-4">
                                 <rect key="frame" x="110" y="345" width="59" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rate-star-button" translatesAutoresizingMaskIntoConstraints="NO" id="7XT-Q6-qdK" userLabel="rate-star-3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rate-star-button-unrated" translatesAutoresizingMaskIntoConstraints="NO" id="7XT-Q6-qdK" userLabel="rate-star-3">
                                 <rect key="frame" x="79" y="345" width="59" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -268,6 +268,11 @@
                         <outlet property="movieRated" destination="1ar-76-1ha" id="hJe-fX-MbK"/>
                         <outlet property="movieSynopsis" destination="o6G-fE-Yr0" id="Uxj-pA-RNu"/>
                         <outlet property="movieTitle" destination="Ucf-Ow-g9D" id="Bla-Ci-PvK"/>
+                        <outlet property="ratingFive" destination="c7t-Zc-zOb" id="inm-Ge-Det"/>
+                        <outlet property="ratingFour" destination="ffz-vY-Y6H" id="nWB-PB-c48"/>
+                        <outlet property="ratingOne" destination="D5P-vX-IUW" id="Wec-5f-9UO"/>
+                        <outlet property="ratingThree" destination="7XT-Q6-qdK" id="9k0-cY-GaS"/>
+                        <outlet property="ratingTwo" destination="D5P-vX-IUW" id="kmH-fi-fpv"/>
                         <outlet property="visualBlurView" destination="qiG-Uk-5y3" id="caB-9x-fb4"/>
                     </connections>
                 </viewController>
@@ -298,6 +303,7 @@
         <image name="backButton" width="50" height="50"/>
         <image name="placeholder_small" width="200" height="300"/>
         <image name="rate-star-button" width="64" height="64"/>
+        <image name="rate-star-button-unrated" width="64" height="64"/>
         <image name="television" width="64" height="64"/>
     </resources>
 </document>

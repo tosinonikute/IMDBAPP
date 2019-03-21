@@ -17,9 +17,17 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var movieTitle: UILabel!
     
     var movieName: String = ""
-    var movieRating: String = ""
+    var movieRating: Double = 0.0
     var movieDesc: String = ""
     var movieImageUrl: String = ""
+    
+    // rating assets
+    
+    @IBOutlet weak var ratingOne: UIImageView!
+    @IBOutlet weak var ratingTwo: UIImageView!
+    @IBOutlet weak var ratingThree: UIImageView!
+    @IBOutlet weak var ratingFour: UIImageView!
+    @IBOutlet weak var ratingFive: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,11 +35,11 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         movieTitle.text = movieName
-        movieRated.text = movieRating
+        movieRated.text = String(movieRating)
         movieSynopsis.text = movieDesc
         self.setMovieImages(movieImageUrl: movieImageUrl)
         
-    
+        setRatingStar(rating: Int(movieRating))
     }
     
     override func viewWillLayoutSubviews() {
@@ -62,6 +70,35 @@ class DetailViewController: UIViewController {
     
     func setBackgroundImage(imageNamePlusExtension: String){
         self.visualBlurView.backgroundColor = UIColor(patternImage: UIImage(named: imageNamePlusExtension)!)
+    }
+    
+    func setRatingStar(rating: Int){
+        
+        let rateImageStr = "rate-star-button"
+        switch rating {
+        case 1...2:
+            ratingOne.image = UIImage(named: rateImageStr)!
+        case 2...4:
+            ratingOne.image = UIImage(named: rateImageStr)!
+            ratingTwo.image = UIImage(named: rateImageStr)!
+        case 4...6:
+            ratingOne.image = UIImage(named: rateImageStr)!
+            ratingTwo.image = UIImage(named: rateImageStr)!
+            ratingThree.image = UIImage(named: rateImageStr)!
+        case 6...8:
+            ratingOne.image = UIImage(named: rateImageStr)!
+            ratingTwo.image = UIImage(named: rateImageStr)!
+            ratingThree.image = UIImage(named: rateImageStr)!
+            ratingFour.image = UIImage(named: rateImageStr)!
+        case 8...10:
+            ratingOne.image = UIImage(named: rateImageStr)!
+            ratingTwo.image = UIImage(named: rateImageStr)!
+            ratingThree.image = UIImage(named: rateImageStr)!
+            ratingFour.image = UIImage(named: rateImageStr)!
+            ratingFive.image = UIImage(named: rateImageStr)!
+        default:
+            ratingOne.image = UIImage(named: rateImageStr)!
+        }
     }
     
     /*
