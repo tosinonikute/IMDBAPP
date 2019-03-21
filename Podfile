@@ -6,6 +6,6 @@ target 'IMDBAPP' do
   use_frameworks!
 
   # Pods for IMDBAPP
-pod 'Cosmos', '~> 18.0'
+pod 'MBProgressHUD', '~> 1.0'
 
 end

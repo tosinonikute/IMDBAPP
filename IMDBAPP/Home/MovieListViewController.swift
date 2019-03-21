@@ -51,6 +51,8 @@ class MovieListViewController: UITableViewController {
         var request = URLRequest(url: components.url!)
         request.httpMethod = "GET" //set http method as GET
         
+        self.showHUD(progressLabel: NSLocalizedString("fetching_data", comment: ""))
+        
         NetworkLogger.logRequest(request: request)
         let task = URLSession.shared.dataTask(with: request) {(data, response, error) in
             guard error == nil else {
@@ -73,6 +75,7 @@ class MovieListViewController: UITableViewController {
                 self.tableArray = movies.results
 
                 DispatchQueue.main.async {
+                    self.dismissHUD(isAnimated:true)
                     self.tableView.reloadData()
                 }
                 
